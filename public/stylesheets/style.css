@@ -40,3 +40,15 @@ footer {
     margin: 5%;
     text-align: justify;
 }
+#artist-works {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#artist-works div {
+    padding: 5% 0;
+    width: 20%;
+}
+#artist-works img {
+    width: 100%;
+}
