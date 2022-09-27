@@ -1,0 +1,33 @@
+#navbar {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid black;
+    background-color: rgb(231, 238, 130);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#links {
+    padding: 10px 40px;
+}
+#links a {
+    padding: 0 20px;
+}
+
+#welcome {
+    padding: 0 50px;
+}
+
+#artist-image {
+    display: flex;
+    justify-content: center;
+}
+#artist-image img {
+    width: 20%;
+    margin: 5%;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
